@@ -14,14 +14,11 @@ interface MenuItem {
 export default function NavbarMain() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const menuItems: MenuItem[] = [
-    { name: "Profile", link: "/profile" },
+  const menuItems: MenuItem[] = [    
     { name: "Generate", link: "/generate" },
     { name: "Showcase", link: "/showcase" },
     { name: "My Creations", link: "/creations" },
-    { name: "Settings", link: "/settings" },
-    { name: "SignIn", link: "/signin" },
-    
+    { name: "Settings", link: "/settings" },    
   ];
 
   return (
@@ -69,7 +66,7 @@ export default function NavbarMain() {
 
       <NavbarContent justify="end">
         
-        <NavbarItem className="hidden sm:flex" >          
+        <NavbarItem >          
           <ThemeSwitcher />          
         </NavbarItem>
 
@@ -98,9 +95,6 @@ export default function NavbarMain() {
             
           </NavbarMenuItem>          
         ))}
-        <NavbarItem >          
-          <ThemeSwitcher />          
-        </NavbarItem>
       </NavbarMenu>      
     </Navbar>
   );
