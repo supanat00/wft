@@ -1,4 +1,6 @@
-async function Generate() {
+'use client'
+
+export default function Generate() {
   return (
         <div className="flex gap-4 flex-col">
           <h1 className="mt-4 font-bold text-4xl">Welcome to Generate Page</h1>
@@ -13,4 +15,4 @@ async function Generate() {
   )
 }
 
-export default Generate;
+
