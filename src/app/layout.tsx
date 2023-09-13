@@ -17,15 +17,17 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+    <ClerkProvider> 
       <html lang="en" suppressHydrationWarning={true}>
         <body className={inter.className}>        
           <Providers>
-          <ClerkProvider> 
+          
           < NavbarMain />
             {children}            
-          </ClerkProvider>
+          
           </Providers>
         </body>
       </html>
+    </ClerkProvider>
     )
 }
