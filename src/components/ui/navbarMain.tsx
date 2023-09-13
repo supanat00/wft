@@ -41,7 +41,7 @@ export default function NavbarMain() {
 
       <NavbarBrand className="hidden sm:flex gap-4">
       <Link href="/" color="foreground" className="flex-items-center gap-4">
-            <Image src="/favicon.ico" alt="logo" width={28} height={28} />           
+            <Image src="/images/favicon.ico" alt="logo" width={28} height={28} />           
             <p className="font-bold text-inherit">WFT</p>   
           </Link>             
       </NavbarBrand>     
