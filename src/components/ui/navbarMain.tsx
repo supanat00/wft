@@ -33,7 +33,7 @@ export default function NavbarMain() {
       <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand>
           <Link href="/" color="foreground" className="flex-items-center gap-4">
-            <Image src="/favicon.ico" alt="logo" width={28} height={28} />           
+            <Image src="/images/favicon.ico" alt="logo" width={28} height={28} />           
             <p className="font-bold text-inherit">WFT</p>   
           </Link>           
         </NavbarBrand>
