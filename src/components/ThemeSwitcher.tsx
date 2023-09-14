@@ -5,8 +5,8 @@ import { useEffect, useState } from "react";
 
 import { Button } from "@nextui-org/react";
 
-import SunIcon from '@/components/ui/icons/Icon_Sun';
-import MoonIcon from '@/components/ui/icons/Icon_Moon';
+import { SunIcon, MoonIcon } from '@/components/icons';
+
 
 
 

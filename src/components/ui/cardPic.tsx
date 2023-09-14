@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import {Card, CardBody, CardFooter, Image, Button, CardHeader, Divider} from "@nextui-org/react";
-import {HeartIcon} from "@/components/ui/icons/HeartIcon";
+import {HeartIcon} from "@/components/icons";
 import OpenModal from "@/components/ui/OpenModal";
 
 export default function CardPic() {
