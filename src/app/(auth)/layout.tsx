@@ -5,7 +5,7 @@ export const metadata = {
   description: 'Generated AI Create texts to image',
 }
 
-export default function RootLayout({
+export default function AuthLayout({
   children,
 }: {
   children: React.ReactNode
